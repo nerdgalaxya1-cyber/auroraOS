@@ -11,20 +11,6 @@
 | **Aurora Store** | Instalador de pacotes integrado | ✅ Ativo |
 | **Segurança** | Login via chave mestra | ✅ Ativo |
 
----
-
-### 📥 Instalação Rápida
-Copie o comando abaixo para clonar o repositório oficial e iniciar o sistema:
-
-\`\`\`bash
-git clone https://github.com/nerdgalaxya1-cyber/auroraOS.git
-cd auroraOS
-chmod +x sistema.sh
-./sistema.sh
-\`\`\`
-
----
-
 ### 🔐 Acesso
 * **Chave Mestra Padrão:** \`2026\`
 * **Segredo:** Procure pelo ícone **[α]** nas configurações para ativar o Núcleo Aurora!
@@ -38,5 +24,14 @@ chmod +x sistema.sh
 
 ---
 
-**Desenvolvido por:** [nerdgalaxya1-cyber](https://github.com/nerdgalaxya1-cyber)
+### 📥 Instalação Rápida
+Copie o comando abaixo para clonar o repositório oficial e iniciar o sistema:
+
+```bash
+git clone https://github.com/nerdgalaxya1-cyber/auroraOS.git
+cd auroraOS
+chmod +x sistema.sh
+./sistema.sh
+
+
 

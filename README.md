@@ -14,22 +14,29 @@
 ---
 
 ### 📥 Instalação Rápida
-Copie o comando abaixo para clonar o repositório oficial:
+Copie o comando abaixo para clonar o repositório oficial e iniciar o sistema:
 
-```bash
-git clone [https://github.com/nerdgalaxya1-cyber/auroraOS.git](https://github.com/nerdgalaxya1-cyber/auroraOS.git)
+\`\`\`bash
+git clone https://github.com/nerdgalaxya1-cyber/auroraOS.git
 cd auroraOS
 chmod +x sistema.sh
 ./sistema.sh
+\`\`\`
 
-# 🔐 Acesso
+---
 
-​Chave Mestra Padrão: 2026
-​Segredo: Procure pelo ícone [α] nas configurações para ativar o Núcleo Aurora!
+### 🔐 Acesso
+* **Chave Mestra Padrão:** \`2026\`
+* **Segredo:** Procure pelo ícone **[α]** nas configurações para ativar o Núcleo Aurora!
 
-# ​🛠️ Tecnologias Usadas
-​
-Linguagem: Bash Script
-​Interface: Dialog (TUI)
-​Ambiente: Termux / Debian
-​Desenvolvido por: nerdgalaxya1-cyber
+---
+
+### 🛠️ Tecnologias Usadas
+* **Linguagem:** Bash Script
+* **Interface:** Dialog (TUI)
+* **Ambiente:** Termux / Debian
+
+---
+
+**Desenvolvido por:** [nerdgalaxya1-cyber](https://github.com/nerdgalaxya1-cyber)
+

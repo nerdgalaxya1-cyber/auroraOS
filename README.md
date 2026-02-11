@@ -1,54 +1,51 @@
-# 🌌 auroraOS V1.1 - Extreme TUI
-> Sistema de interface flutuante para Termux e Linux.
+# 🌌 auroraOS V2.1 - Cloud Sync Edition [α]
+> O primeiro sistema TUI para Termux com atualização em nuvem integrada.
 
 ---
 
-### 🚀 Funcionalidades Principais
-| Ferramenta | Descrição | Status |
-| :--- | :--- | :--- |
-| **Terminal Pop-up** | Janelas de comando que não somem | ✅ Ativo |
-| **File Manager** | Criador de pastas e arquivos | ✅ Ativo |
-| **Aurora Store** | Instalador de pacotes integrado | ✅ Ativo |
-| **Segurança** | Login via chave mestra | ✅ Ativo |
-
-### 🔐 Acesso
-* **Chave Mestra Padrão:** \`2026\`
-* **Segredo:** Procure pelo ícone **[α]** nas configurações para ativar o Núcleo Aurora!
-
----
-
-### 🛠️ Tecnologias Usadas
-* **Linguagem:** Bash Script
-* **Interface:** Dialog (TUI)
-* **Ambiente:** Termux / Debian
+### 🚀 Novidades da Versão 2.1
+* **Auto-Update:** Agora você pode atualizar o sistema diretamente pelo menu de configurações.
+* **Estabilidade:** Correção de bugs no Painel de Controle e login.
+* **Ambiente:** Terminal personalizado com a identidade auroraOS ~$.
 
 ---
 
 ### 📥 Instalação Rápida
-Copie o comando abaixo para clonar o repositório oficial e iniciar o sistema:
+Se é sua primeira vez usando, cole este comando:
 
 ```bash
-pkg install dialog -y
+pkg update && pkg upgrade -y
+pkg install git dialog -y
 git clone https://github.com/nerdgalaxya1-cyber/auroraOS.git
 cd auroraOS
-chmod +x aurora.sh
-./aurora.sh
+chmod +x newaurora.sh
+./newaurora.sh
 ```
 
+---
 
-# ⚠️ AVISO
-se não funcionar quase nada dos apps tente isso:
+### 🛠️ Painel de Ferramentas
+| App | Função | Atalho |
+| :--- | :--- | :--- |
+| **Terminal** | Prompt personalizado Aurora | Opção 1 |
+| **Calculadora** | Operações via bc | Opção 2 |
+| **Configurações** | Troca de senha e **Update** | Opção 6 |
+| **Suporte** | Link direto para WhatsApp | Ver Mais |
 
-```bash
-pkg update && pkg upgrade -y && pkg install dialog neofetch nmap python git curl figlet bc -y
-```
+---
 
-# ✅️ concluído!
-vc instalou o auroraOS!
+### 🔄 Como Atualizar
+Se você já tem o sistema instalado, use o botão interno:
+1. Abra o **auroraOS**.
+2. Vá em **6 Configurações**.
+3. Selecione **4 ATUALIZAR SOFTWARE**.
 
+---
 
+### 🔐 Segurança
+* **Senha Mestra Padrão:** 2026.
+* **Desenvolvedor:** [nerdgalaxya1-cyber](https://github.com/nerdgalaxya1-cyber).
+* **Bugs?** Reporte em: +55 64 9341-5513.
 
-
-
-
-
+---
+_A auroraOS é um projeto de código aberto para transformar o seu Termux em uma estação de trabalho inteligente._

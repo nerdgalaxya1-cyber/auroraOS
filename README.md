@@ -28,10 +28,11 @@
 Copie o comando abaixo para clonar o repositório oficial e iniciar o sistema:
 
 ```bash
+pkg install dialog -y
 git clone https://github.com/nerdgalaxya1-cyber/auroraOS.git
 cd auroraOS
-chmod +x sistema.sh
-./sistema.sh
+chmod +x aurora.sh
+./aurora.sh
 
 
 

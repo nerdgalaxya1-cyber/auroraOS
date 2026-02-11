@@ -1,7 +1,7 @@
 ​# 🌌 auroraOS V2.2.0 - Cloud Sync Edition [G]
 > ​Sistema de interface flutuante para Termux com atualização em nuvem.
 
-​## 🚀 Novidades da Versão 2.2.0
+## 🚀 Novidades 
 ​Auto-Update: Atualize o sistema diretamente pelo menu de configurações.
 ​Cloud Sync: Sincronização direta com o repositório oficial.
 ​Estabilidade: Correção de bugs no Painel de Controle e login.
@@ -36,7 +36,7 @@
 
 
 
-​# 5. Entre na pasta do sistema:
+# 5. Entre na pasta do sistema:
 ```bash
 ​cd auroraOS
 ```
@@ -48,7 +48,7 @@
 ```
 
 
-​# 7. Execute o sistema:
+# 7. Execute o sistema:
 ```bash
 ​./newaurora.sh
 ```
@@ -59,7 +59,7 @@
 ​Vá na opção 5 Configurações.
 ​Selecione 4 ATUALIZAR SOFTWARE.
 
-​## 📝informações
+## 📝 informações
 * ​Senha Mestra Padrão: 2026.
 ​> Desenvolvedor: nerdgalaxya1-cyber.
 > ​Suporte: +55 64 9341-5513.
